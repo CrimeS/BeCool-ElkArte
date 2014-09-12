@@ -189,11 +189,10 @@ strong {
 /* Styles for main headers. */
 .category_header, .forum_category .category_header {
 	border-radius: 5px;
-	background: #eee;
+	background: #428bca;
 	color: #666;
 	font-size: 1.5em;
-	font-weight: bolder;
-	text-shadow: 1px 1px 0 #ebebeb;
+	text-shadow: 0px 0px 0 #ebebeb;
 	margin-bottom: 5px;
 }
 /* Single ones a bit darker than board index ones. */
@@ -212,7 +211,8 @@ strong {
 }
 
 .category_header a:link {
-	color: #777;
+	color: #fff;
+	font-size: 16px;
 }
 
 /* Upshrink image in the general category headers */
