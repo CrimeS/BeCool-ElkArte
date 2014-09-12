@@ -1631,7 +1631,6 @@ a.help .icon {
 }
 #top_section {
 	position: relative;
-	text-align: center;
 }
 #top_section #main_menu {
 	float: none;
@@ -1640,10 +1639,4 @@ a.help .icon {
 }
 #menu_nav {
 	padding-bottom: 0;
-}
-.community_name
-{
-		position: absolute;
-		margin-top: 10px;
-		font-size: 18px;
 }

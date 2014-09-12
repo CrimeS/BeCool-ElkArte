@@ -247,15 +247,8 @@ function template_body_above()
 				<div class="menu_bg_content">
 					<div class="menu_bg_center">
 					
-					<div class="community_name">
-					<div class="floatleft">
-					<a href="', $scripturl, '">', $context['forum_name'], '</a>
-					</div>
-					</div>
-					
 					', template_menu(), '';
-					
-
+				
 					call_template_callbacks('th', $context['theme_header_callbacks']);
 					
 			echo '		
