@@ -793,9 +793,9 @@ a.bbc_link {
 }
 #search_form * {
 	margin: 0;
-	border-radius: 0;
+	border-radius: 4px;
 	/* Webkit (bleh) fix. */
-	float: left;
+	/* float: left; */
 }
 /* The logo and slogan. */
 #header {

@@ -92,7 +92,7 @@ input, button, select, textarea, .editor {
 	border: 1px solid #ccc;
 	border-radius: 2px;
 	background: #fff;
-	color: #666;
+	color: #555;
 }
 .linkbutton:link, .linkbutton_right:link, .linkbutton_left:link,
 .linkbutton:visited, .linkbutton_right:visited, .linkbutton_left:visited {
