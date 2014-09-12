@@ -1017,6 +1017,7 @@ a.bbc_link {
 	position: relative;
 	display: block;
 	padding: 0 7px;
+	text-align: left;
 }
 /* @todo - Note: The next declarations are for keyboard access with js disabled. */
 /* Hmm. These are tricky with the new Superfish/Superclick combo. */
