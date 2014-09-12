@@ -399,7 +399,7 @@ div.bbc_footnotes .meaction {
 	color: #a80000;
 }
 #search_form .button_submit {
-	font-variant: small-caps;
+	/* font-variant: small-caps; */
 	color: #333;
 }
 #search_form select {
@@ -562,13 +562,12 @@ div.bbc_footnotes .meaction {
 .linkbutton:link, .linkbutton_right:link, .linkbutton_left:link,
 .linkbutton:visited, .linkbutton_right:visited, .linkbutton_left:visited {
 	border-radius: 2px;
-	border: 1px solid #afafaf;
-	border-top: 1px solid #cfcfcf;
-	border-left: 1px solid #bfbfbf;
-	background: #f4f4f4;
-	background-image: linear-gradient(to bottom, #fff, #e4e4e4);
+	border: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	background: #fff;
 	color: #555;
-	box-shadow: 1px 1px 2px #e5e5e5;
+	box-shadow: 0px 0px 0px #e5e5e5;
 }
 
 /* Hover effects. */
