@@ -1102,16 +1102,16 @@ a.bbc_link {
 	font-size: 0.929em;
 	line-height: 39px;
 	display: inline-block;
-	padding: 0 1.1em 0 2em;
+	padding: 0 0px 0 6px;
 	border: none;
 	white-space: nowrap;
 }
 
 /* Nifty indicators. */
 .linktree:after {
-	content: "";
-	position: absolute;
-	display: inline-block;
+	content: "/\00a0";
+	/* position: absolute;
+	display: inline-block; */
 	right: -1em;
 	top: 0;
 	width: 2em;
