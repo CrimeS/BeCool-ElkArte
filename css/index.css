@@ -1663,7 +1663,7 @@ dl.settings label {
 }
 /* The posting icons and mark read button. */
 #posting_icons {
-	margin: 0 0 20px 4px;
+	margin: 15px 0 20px 4px;
 }
 #posting_icons p {
 	display: table-cell;

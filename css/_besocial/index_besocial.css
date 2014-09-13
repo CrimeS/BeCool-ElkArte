@@ -188,7 +188,7 @@ strong {
 
 /* Styles for main headers. */
 .category_header, .forum_category .category_header {
-	border-radius: 5px;
+	border-radius: 3px;
 	background: #428bca;
 	color: #fff;
 	font-size: 18px;
@@ -1643,4 +1643,9 @@ a.help .icon {
 		position: absolute;
 		margin-top: 10px;
 		font-size: 18px;
+}
+.board_border
+{
+	border: 1px solid #428bca;
+	border-radius: 3px;
 }
