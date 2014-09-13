@@ -232,10 +232,12 @@ function template_body_above()
 	// Skip nav link.
 	echo '
 	<div id="top_section">
-		<div class="wrapper">';
-
-	
-
+		<div class="wrapper">
+		
+		<div class="community_name">		
+		<a href="', $scripturl, '">', $context['forum_name'], '</a>		
+		</div>';
+		
 	echo '
 		</div>';
 
@@ -246,12 +248,6 @@ function template_body_above()
 			<div class="menu_bg_margin">
 				<div class="menu_bg_content">
 					<div class="menu_bg_center">
-					
-					<div class="community_name">
-					<div class="floatleft">
-					<a href="', $scripturl, '">', $context['forum_name'], '</a>
-					</div>
-					</div>
 					
 					', template_menu(), '';
 				

@@ -1627,7 +1627,7 @@ a.help .icon {
 }
 #top_section {
 	position: relative;
-	text-align: center;
+	text-align: left;
 }
 #top_section #main_menu {
 	float: none;
@@ -1639,9 +1639,10 @@ a.help .icon {
 }
 .community_name
 {
-		position: absolute;
-		margin-top: 10px;
-		font-size: 18px;
+	margin-top: 10px;
+	font-size: 18px;
+	padding-bottom: 3%;
+	padding-left: 7%;
 }
 .board_border
 {
