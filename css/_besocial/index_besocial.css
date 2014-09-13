@@ -638,8 +638,7 @@ div.bbc_footnotes .meaction {
 /* ......and for secondary admin/profile/etc menu strip. */
 #adm_submenus .active {
 	border: 1px solid #aaa;
-	background: #7bb128;
-	background-image: linear-gradient(to bottom, #9dd53a 0%,#a1d54f 21%,#80c217 63%,#7cbc0a 100%);
+	background: #428bca;
 	color: white;
 }
 
@@ -685,9 +684,9 @@ a.active {
 
 /* Levels 2 and 3: drop menu wrapper. */
 .menulevel2, .menulevel3 {
-	border: 1px solid grey;
+	border: 1px solid #428bca;
 	background: white;
-	box-shadow: 1px 2px 4px #ccc;
+	box-shadow: 0px 0px 0px #ccc;
 	border-radius: 5px;
 }
 
@@ -708,7 +707,7 @@ a.active {
 .listlevel2:hover .linklevel2, /* < highlighted with cursor over level 3. */
 .linklevel2:hover, .linklevel2:focus, .linklevel2.sfhover:focus,
 .linklevel3:hover, .linklevel3:focus, .linklevel3.sfhover:focus {
-	background: #7bb128;
+	background: #428bca;
 	color: #fff;
 	text-decoration: none;
 }
@@ -764,7 +763,7 @@ a.active {
 	margin: 0 2px;
 }
 .pagelinks .navPages:hover, .pagelinks .current_page {
-	background: #7bb128;
+	background: #f6e955;
 	color: white;
 	border-radius: 8px;
 	text-decoration: none;
