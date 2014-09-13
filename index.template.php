@@ -414,6 +414,9 @@ function template_body_below()
 	<div id="footer_section"><a id="bot"></a>
 		<div class="wrapper">
 			<ul>
+				<li class="copyright">
+				<a href="http://elkartestudio.com"><b>Theme designed by ElkArteStudio.com</b></a>
+				</li>
 				<li class="copyright">',
 					theme_copyright(), '
 				</li>',
