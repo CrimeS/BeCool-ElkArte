@@ -235,7 +235,8 @@ function template_body_above()
 		<div class="wrapper">
 		
 		<div class="community_name">		
-		<a href="', $scripturl, '">', $context['forum_name'], '</a>		
+			<img src="', $context['header_logo_url_html_safe'], '" alt="', $context['forum_name_html_safe'], '" title="', $context['forum_name_html_safe'], '" />', empty($settings['site_slogan']) ? '' : '
+			<div id="siteslogan">' . $settings['site_slogan'] . '</div>', '	
 		</div>';
 		
 	echo '
