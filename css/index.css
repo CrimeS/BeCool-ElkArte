@@ -183,7 +183,7 @@ input, .input_text, button, select {
 	vertical-align: middle;
 }
 select {
-	padding: 0 6px 0 2px;
+	padding: 0 0 0 2px;
 }
 .input_text {
 	font-size: .876em;
@@ -2519,6 +2519,9 @@ ul.post_options li {
 }
 #chrome .drop_area_fileselect, #safari .drop_area_fileselect {
 	padding-left: 160px;
+}
+.drop_area_fileselect_text {
+	white-space: nowrap;
 }
 
 #postAttachment >dd.progress_tracker {
